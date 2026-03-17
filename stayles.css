@@ -81,4 +81,44 @@ button:active {
   opacity: 0.8;
 }
 
+/* 🔽 RESPONSIVO EXTRA PARA TELAS PEQUENAS */
+@media (max-width: 480px) {
+  img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h4 {
+    font-size: 18px;
+      width: 300px;
+      text-align: center;
+      margin-left: 0;
+  }
+
+  input,
+  button {
+    padding: 10px;
+    
+  }
+
+  button {
+  background-color:#AEC346 ;
+  color: #FFFFFF;
+  width: 342;
+  height: 72;
+  top: 858px;
+  left: 849px;
+  padding-right: 76px;
+  padding-left: 76px;
+  margin-top:30px;
+  cursor: pointer;
+  
+
+  
+}
+
+}
 
